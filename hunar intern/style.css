@@ -1,0 +1,35 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+h1{margin-top:100px;
+   text-align: center;
+   color: rgb(100, 6, 77);
+   
+}
+body{
+    background-color: rgb(185, 213, 213);
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top:90px;
+    justify-content:space-around;
+}
+.container div{
+    width:330px;
+    color: rgb(133, 7, 45);
+
+    margin:30px;
+    flex-basis:25%;
+   
+   
+}
+.container h2{
+    color: rgb(5, 24, 24);
+}
+.container div:hover{
+    transform: scale(1.1);
+    
+   
+}
